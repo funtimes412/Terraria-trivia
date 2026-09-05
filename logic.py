@@ -18,7 +18,7 @@ import random
 
 
 def getFileNames():
-    dir = r"C:\Users\garet\main\python\trivia\Output"
+    dir = r"C:\Users\<usernamehere>\main\python\trivia\Output"
     filenames = []
 
     for root, _, files in os.walk(dir):
